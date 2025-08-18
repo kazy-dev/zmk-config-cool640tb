@@ -2,8 +2,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: telzo2000
-      url-base: https://github.com/telzo2000
+    - name: kazy-cool640tb-custom
+      url-base: https://github.com/kazy-cool640tb-custom
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
   projects:
@@ -12,7 +12,7 @@ manifest:
       revision: main
       import: app/west.yml
     - name: zmk-pmw3610-driver
-      remote: telzo2000
+      remote: kazy-cool640tb-custom
       revision: main
   self:
     path: config
