@@ -123,10 +123,10 @@
 
         MOUSE_LAYER {
             bindings = <
-&kp TAB         &none               &none             &none                &none   &none   &none     &none      &none     &none
-&kp LCTRL       &kp LC(LEFT_ARROW)  &kp LC(UP_ARROW)  &kp LC(RIGHT_ARROW)  &none   &none   &mkp MB1  &mo 6      &mkp MB2  &kp ENTER
-&kp LEFT_SHIFT  &none               &none             &none                &none   &none   &mkp MB4  &kp COMMA  &mkp MB5  &kp LEFT_SHIFT
-&trans          &trans              &trans            &trans               &trans  &trans  &trans    &trans     &trans    &to 0
+&kp TAB         &mkp MB4            &mkp MB1          &mkp MB2             &mkp MB5  &none   &none   &none   &none   &none
+&kp LCTRL       &kp LC(LEFT_ARROW)  &kp LC(UP_ARROW)  &kp LC(RIGHT_ARROW)  &none     &none   &none   &none   &none   &none
+&kp LEFT_SHIFT  &none               &none             &none                &none     &none   &none   &none   &none   &none
+&trans          &trans              &trans            &trans               &mo 6     &trans  &trans  &trans  &trans  &to 0
             >;
         };
 
